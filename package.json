@@ -1,6 +1,12 @@
 {
     "private": true,
+    "type": "module",
     "scripts": {
-        "build": "echo \"No frontend build required\""
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "laravel-vite-plugin": "^1.2.0",
+        "vite": "^6.0.11"
     }
 }
